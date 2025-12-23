@@ -1,0 +1,2 @@
+# Smart-Anomaly-Detection-in-Laptop-Batteries-with-Multi-Algorithm-Machine-Learning
+This project uses multiple machine learning algorithms to detect anomalies and predict maintenance requirements in laptop batteries, improving health monitoring, identifying early signs of degradation, and providing actionable recommendations to extend battery lifespan through advanced analytics and interpretability.
