@@ -1,0 +1,280 @@
+device_id   brand  model_year       os   usage_type  daily_usage_hours  \
+0     LB001      HP        2021  Windows       Office                  6   
+1     LB002    Dell        2020  Windows  Programming                  8   
+2     LB003   Apple        2022    macOS     Creative                  7   
+3     LB004  Lenovo        2019  Windows      Student                  5   
+4     LB005    Asus        2021  Windows       Gaming                  9   
+
+   charging_cycles  avg_charge_limit_percent  battery_health_percent  \
+0              420                        90                      86   
+1              610                       100                      78   
+2              310                        85                      92   
+3              700                       100                      70   
+4              820                       100                      65   
+
+   battery_age_months overheating_issues  performance_rating  
+0                  36                 No                   4  
+1                  48                Yes                   3  
+2                  24                 No                   5  
+3                  60                Yes                   3  
+4                  40                Yes                   2  
+All batteries with anomaly labels:
+   device_id   brand  model_year       os   usage_type  daily_usage_hours  \
+0      LB001      HP        2021  Windows       Office                  6   
+1      LB002    Dell        2020  Windows  Programming                  8   
+2      LB003   Apple        2022    macOS     Creative                  7   
+3      LB004  Lenovo        2019  Windows      Student                  5   
+4      LB005    Asus        2021  Windows       Gaming                  9   
+5      LB006    Acer        2020  Windows       Office                  6   
+6      LB007   Apple        2023    macOS  Programming                  8   
+7      LB008      HP        2018  Windows      Student                  4   
+8      LB009    Dell        2022  Windows       Office                  6   
+9      LB010  Lenovo        2021  Windows  Programming                  7   
+10     LB011    Asus        2020  Windows       Gaming                 10   
+11     LB012    Acer        2019  Windows       Office                  5   
+12     LB013   Apple        2021    macOS     Creative                  6   
+13     LB014      HP        2022  Windows      Student                  5   
+14     LB015    Dell        2018  Windows       Office                  6   
+15     LB016  Lenovo        2023  Windows  Programming                  8   
+16     LB017    Asus        2021  Windows       Office                  6   
+17     LB018    Acer        2020  Windows      Student                  4   
+18     LB019   Apple        2019    macOS     Creative                  7   
+19     LB020      HP        2022  Windows       Office                  6   
+20     LB021    Dell        2021  Windows  Programming                  8   
+21     LB022  Lenovo        2020  Windows      Student                  5   
+22     LB023    Asus        2022  Windows       Gaming                  9   
+23     LB024    Acer        2018  Windows       Office                  6   
+24     LB025   Apple        2023    macOS  Programming                  7   
+25     LB026      HP        2020  Windows       Office                  6   
+26     LB027    Dell        2019  Windows      Student                  5   
+27     LB028  Lenovo        2021  Windows  Programming                  8   
+28     LB029    Asus        2018  Windows       Gaming                 10   
+29     LB030    Acer        2022  Windows       Office                  6   
+30     LB031   Apple        2020    macOS     Creative                  7   
+31     LB032      HP        2021  Windows      Student                  5   
+32     LB033    Dell        2023  Windows       Office                  6   
+33     LB034  Lenovo        2019  Windows  Programming                  7   
+34     LB035    Asus        2020  Windows       Gaming                  9   
+35     LB036    Acer        2021  Windows       Office                  6   
+36     LB037   Apple        2022    macOS  Programming                  8   
+37     LB038      HP        2018  Windows      Student                  4   
+38     LB039    Dell        2021  Windows       Office                  6   
+39     LB040  Lenovo        2022  Windows  Programming                  8   
+40     LB041    Asus        2019  Windows       Office                  6   
+41     LB042    Acer        2023  Windows      Student                  5   
+42     LB043   Apple        2018    macOS     Creative                  7   
+43     LB044      HP        2020  Windows       Office                  6   
+44     LB045    Dell        2022  Windows  Programming                  8   
+45     LB046  Lenovo        2018  Windows      Student                  5   
+46     LB047    Asus        2021  Windows       Office                  6   
+47     LB048    Acer        2020  Windows       Gaming                  9   
+48     LB049   Apple        2021    macOS  Programming                  7   
+49     LB050      HP        2023  Windows       Office                  6   
+
+    charging_cycles  avg_charge_limit_percent  battery_health_percent  \
+0               420                        90                      86   
+1               610                       100                      78   
+2               310                        85                      92   
+3               700                       100                      70   
+4               820                       100                      65   
+5               540                        95                      80   
+6               210                        80                      95   
+7               880                       100                      60   
+8               350                        90                      88   
+9               480                        85                      83   
+10              900                       100                      58   
+11              620                        95                      75   
+12              400                        80                      90   
+13              300                        90                      91   
+14              850                       100                      62   
+15              220                        85                      94   
+16              450                        90                      85   
+17              560                        95                      79   
+18              680                        85                      82   
+19              310                        90                      89   
+20              490                       100                      81   
+21              600                        95                      76   
+22              520                       100                      74   
+23              900                       100                      59   
+24              180                        80                      97   
+25              570                        95                      77   
+26              730                       100                      68   
+27              460                        90                      84   
+28              950                       100                      55   
+29              320                        90                      90   
+30              500                        85                      87   
+31              430                        90                      86   
+32              210                        85                      96   
+33              680                       100                      72   
+34              780                       100                      66   
+35              410                        95                      85   
+36              260                        80                      93   
+37              870                       100                      61   
+38              450                        90                      84   
+39              330                        85                      91   
+40              640                        95                      74   
+41              190                        90                      97   
+42              760                        85                      78   
+43              560                        95                      79   
+44              340                        90                      90   
+45              820                       100                      63   
+46              470                        90                      84   
+47              710                       100                      69   
+48              380                        80                      92   
+49              200                        85                      98   
+
+    battery_age_months overheating_issues  performance_rating  \
+0                   36                 No                   4   
+1                   48                Yes                   3   
+2                   24                 No                   5   
+3                   60                Yes                   3   
+4                   40                Yes                   2   
+5                   50                 No                   4   
+6                   18                 No                   5   
+7                   72                Yes                   2   
+8                   30                 No                   4   
+9                   36                 No                   4   
+10                  54                Yes                   2   
+11                  60                 No                   3   
+12                  42                 No                   5   
+13                  24                 No                   5   
+14                  72                Yes                   2   
+15                  18                 No                   5   
+16                  36                 No                   4   
+17                  48                 No                   3   
+18                  60                 No                   4   
+19                  24                 No                   4   
+20                  36                 No                   4   
+21                  48                 No                   3   
+22                  30                Yes                   3   
+23                  72                Yes                   2   
+24                  12                 No                   5   
+25                  48                 No                   3   
+26                  60                Yes                   2   
+27                  36                 No                   4   
+28                  72                Yes                   1   
+29                  24                 No                   4   
+30                  48                 No                   4   
+31                  36                 No                   4   
+32                  18                 No                   5   
+33                  60                Yes                   3   
+34                  48                Yes                   2   
+35                  36                 No                   4   
+36                  24                 No                   5   
+37                  72                Yes                   2   
+38                  36                 No                   4   
+39                  24                 No                   5   
+40                  60                 No                   3   
+41                  12                 No                   5   
+42                  72                 No                   3   
+43                  48                 No                   3   
+44                  24                 No                   5   
+45                  72                Yes                   2   
+46                  36                 No                   4   
+47                  48                Yes                   2   
+48                  36                 No                   5   
+49                  12                 No                   5   
+
+    degradation_rate  total_usage_hours  anomaly_iso  anomaly_svm  \
+0           2.388889                216            1            1   
+1           1.625000                384            1            1   
+2           3.833333                168            1            1   
+3           1.166667                300            1            1   
+4           1.625000                360            1            1   
+5           1.600000                300            1            1   
+6           5.277778                144            1           -1   
+7           0.833333                288            1           -1   
+8           2.933333                180            1            1   
+9           2.305556                252            1            1   
+10          1.074074                540           -1           -1   
+11          1.250000                300            1            1   
+12          2.142857                252            1           -1   
+13          3.791667                120            1            1   
+14          0.861111                432            1            1   
+15          5.222222                144            1            1   
+16          2.361111                216            1            1   
+17          1.645833                192            1           -1   
+18          1.366667                420            1            1   
+19          3.708333                144            1            1   
+20          2.250000                288            1            1   
+21          1.583333                240            1            1   
+22          2.466667                270            1           -1   
+23          0.819444                432            1           -1   
+24          8.083333                 84           -1            1   
+25          1.604167                288            1            1   
+26          1.133333                300            1            1   
+27          2.333333                288            1            1   
+28          0.763889                720           -1            1   
+29          3.750000                144            1            1   
+30          1.812500                336            1            1   
+31          2.388889                180            1            1   
+32          5.333333                108            1            1   
+33          1.200000                420            1            1   
+34          1.375000                432            1            1   
+35          2.361111                216            1            1   
+36          3.875000                192            1           -1   
+37          0.847222                288            1            1   
+38          2.333333                216            1            1   
+39          3.791667                192            1            1   
+40          1.233333                360            1            1   
+41          8.083333                 60           -1            1   
+42          1.083333                504            1            1   
+43          1.645833                288            1            1   
+44          3.750000                192            1            1   
+45          0.875000                360            1            1   
+46          2.333333                216            1            1   
+47          1.437500                432            1            1   
+48          2.555556                252            1            1   
+49          8.166667                 72           -1            1   
+
+    anomaly_dbscan  
+0                0  
+1               -1  
+2               -1  
+3                1  
+4               -1  
+5                2  
+6                3  
+7                4  
+8               -1  
+9               -1  
+10              -1  
+11              -1  
+12              -1  
+13              -1  
+14               5  
+15               3  
+16               0  
+17              -1  
+18              -1  
+19               6  
+20               7  
+21              -1  
+22              -1  
+23               5  
+24              -1  
+25               2  
+26               1  
+27               7  
+28              -1  
+29               6  
+30              -1  
+31              -1  
+32              -1  
+33              -1  
+34               8  
+35               0  
+36               9  
+37               4  
+38               0  
+39               9  
+40              -1  
+41              -1  
+42              -1  
+43               2  
+44               9  
+45              -1  
+46               0  
+47               8  
+48              -1  
+49              -1  
